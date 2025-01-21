@@ -19,7 +19,7 @@ export class HomePage {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(email);
   }
-  
+  //Validaciones
   // Método para validar la contraseña
   validatePassword(password: string): boolean {
     // Contraseña de al menos 8 caracteres, al menos una letra, un número y un carácter especial
